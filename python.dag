@@ -1,5 +1,16 @@
-# file name: yolo-gdrive.dag
+# file name: python.dag
 
-JOB A yolo.sub
-JOB B gdrive.sub
+JOB A data_exploration.sub
+JOB B data_preprocessing.sub
+JOB C feature_engineering.sub
+JOB D data_splitting.sub
+JOB E model_selection.sub
+JOB F model_training.sub
+JOB G evaluate_model_imputed.sub
+
 PARENT A CHILD B
+PARENT B CHILD C
+PARENT C CHILD D
+PARENT D CHILD E
+PARENT E CHILD F
+PARENT F CHILD G
