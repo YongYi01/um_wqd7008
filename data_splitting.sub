@@ -1,7 +1,7 @@
-executable      =   um_wqd7008/data_splitting.py
-Output          =   um_wqd7008/data_splitting_output.txt
-Error           =   um_wqd7008/data_splitting_error.txt
-Log             =   um_wqd7008/data_splitting_log.txt
+executable      =   /home/ubuntu/project/um_wqd7008/data_splitting.py
+Output          =   /home/ubuntu/project/um_wqd7008/data_splitting_output.txt
+Error           =   /home/ubuntu/project/um_wqd7008/data_splitting_error.txt
+Log             =   /home/ubuntu/project/um_wqd7008/data_splitting_log.txt
 
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
