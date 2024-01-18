@@ -1,10 +1,9 @@
 executable      =   um_wqd7008/feature_engineering.py
-Output          =   um_wqd7008/output.txt
-Error           =   um_wqd7008/error.txt
-Log             =   um_wqd7008/log.txt
+Output          =   um_wqd7008/feature_engineerin_output.txt
+Error           =   um_wqd7008/feature_engineerin_error.txt
+Log             =   um_wqd7008/feature_engineerin_log.txt
 
-notification=Never
-Arguements=$(Process)
-PeriodicRelease=(JobStatus==5)&&(CurrentTime-EnteredCurrentState>30)
-onExitRemove=(ExitStatus==0)
-Queue
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+
+queue
