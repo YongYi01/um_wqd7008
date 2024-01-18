@@ -1,7 +1,7 @@
-executable      =   um_wqd7008/feature_engineering.py
-Output          =   um_wqd7008/feature_engineerin_output.txt
-Error           =   um_wqd7008/feature_engineerin_error.txt
-Log             =   um_wqd7008/feature_engineerin_log.txt
+executable      =   /home/ubuntu/project/um_wqd7008/feature_engineering.py
+Output          =   /home/ubuntu/project/um_wqd7008/feature_engineerin_output.txt
+Error           =   /home/ubuntu/project/um_wqd7008/feature_engineerin_error.txt
+Log             =   /home/ubuntu/project/um_wqd7008/feature_engineerin_log.txt
 
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
