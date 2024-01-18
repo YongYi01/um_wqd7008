@@ -1,0 +1,10 @@
+executable      =   um_wqd7008/feature_engineering.py
+Output          =   um_wqd7008/output.txt
+Error           =   um_wqd7008/error.txt
+Log             =   um_wqd7008/log.txt
+
+notification=Never
+Arguements=$(Process)
+PeriodicRelease=(JobStatus==5)&&(CurrentTime-EnteredCurrentState>30)
+onExitRemove=(ExitStatus==0)
+Queue
