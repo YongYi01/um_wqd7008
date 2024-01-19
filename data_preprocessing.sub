@@ -1,9 +1,19 @@
 executable      =   /home/ubuntu/project/um_wqd7008/data_preprocessing.py
-Output          =   /home/ubuntu/project/um_wqd7008/data_preprocessing_output.txt
-Error           =   /home/ubuntu/project/um_wqd7008/data_preprocessing_error.txt
-Log             =   /home/ubuntu/project/um_wqd7008/data_preprocessing_log.txt
+
+Intialdir       =   /home/ubuntu/project/um_wqd7008
+Input           =   /home/ubuntu/project/um_wqd7008
+Output          =   /home/ubuntu/project/um_wqd7008
+
+Output          =   data_preprocessing_output.txt
+Error           =   data_preprocessing_error.txt
+Log             =   data_preprocessing_log.txt
+
 
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
+
+request_cpus    =   1
+request_memory  =   2GB
+request_disk    =   1G
 
 queue
