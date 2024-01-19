@@ -15,3 +15,5 @@ def feature_engineering():
             df[f'{var}_lag{i}'] = df[var].shift(i)
     # Display the updated dataset with lag features
     print(df.head())
+
+feature_engineering(df)
