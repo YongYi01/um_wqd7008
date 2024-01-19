@@ -6,6 +6,11 @@ Log             =   /home/ubuntu/project/um_wqd7008/model_training_log.txt
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
 
+notification=Never
+Arguements=$(Process)
+PeriodicRelease=(JobStatus==5)&&(CurrentTime-EnteredCurrentState>30)
+onExitRemove=(ExitStatus==0)
+
 request_cpus    =   1
 request_memory  =   2GB
 request_disk    =   1G
