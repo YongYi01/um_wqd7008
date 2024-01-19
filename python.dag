@@ -1,0 +1,19 @@
+# file name: python.dag
+
+JOB A install_packages.sub
+JOB B import_libraries.sub
+JOB C data_exploration.sub
+JOB D data_preprocessing.sub
+JOB E feature_engineering.sub
+JOB F data_splitting.sub
+JOB G model_selection.sub
+JOB H model_training.sub
+JOB I evaluate_model_imputed.sub
+PARENT A CHILD B
+PARENT B CHILD C
+PARENT C CHILD D
+PARENT D CHILD E
+PARENT E CHILD F
+PARENT F CHILD G
+PARENT G CHILD H
+PARENT H CHILD I
