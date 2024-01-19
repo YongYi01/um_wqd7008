@@ -1,4 +1,4 @@
-# file name: linear.dag
+# file name: parallel.dag
 
 JOB A data_exploration.sub
 JOB B data_preprocessing.sub
