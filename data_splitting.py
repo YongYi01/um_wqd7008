@@ -12,3 +12,5 @@ def data_splitting():
     # Display the shapes of the training and testing sets
     print("Training set shape:", X_train.shape, y_train.shape)
     print("Testing set shape:", X_test.shape, y_test.shape)
+
+data_splitting()
