@@ -13,4 +13,4 @@ def data_splitting():
     print("Training set shape:", X_train.shape, y_train.shape)
     print("Testing set shape:", X_test.shape, y_test.shape)
 
-data_splitting()
+data_splitting(df)
