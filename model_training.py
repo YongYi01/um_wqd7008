@@ -10,4 +10,4 @@ def model_training():
     # Predict on the imputed test data
     y_pred_imputed = rf_model.predict(X_test_imputed)
 
-model_training()
+model_training(X_train, y_train, X_test, y_test, rf_model, imputer)
