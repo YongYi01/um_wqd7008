@@ -12,4 +12,4 @@ def model_selection():
     # Initialize the imputer
     imputer = SimpleImputer(strategy='mean')
 
-model_selection()
+model_selection(df)
