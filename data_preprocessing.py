@@ -9,6 +9,8 @@ Original file is located at
 
 # Step 2: Data Preprocessing
 def data_preprocessing():
+    data = '/home/ubuntu/project/um_wqd7008/hourly_weather.csv'
+    df = pd.read_csv(data)
     print("Step 2: Data Preprocessing")
     # Convert 'date' to datetime format
     df['date'] = pd.to_datetime(df['date'])
