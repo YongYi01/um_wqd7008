@@ -15,3 +15,5 @@ def data_preprocessing():
     # Decide on a strategy for handling missing values
     # Since Kuala Lumpur has a relatively consistent climate, fill missing values with the mean
     df.fillna(method='ffill', inplace=True)
+    
+data_preprocessing()
