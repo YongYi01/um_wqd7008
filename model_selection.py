@@ -11,3 +11,5 @@ def model_selection():
     from sklearn.impute import SimpleImputer
     # Initialize the imputer
     imputer = SimpleImputer(strategy='mean')
+
+model_selection()
