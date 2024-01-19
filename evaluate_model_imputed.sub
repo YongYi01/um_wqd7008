@@ -6,4 +6,8 @@ Log             =   /home/ubuntu/project/um_wqd7008/evaluate_model_imputed_log.t
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
 
+request_cpus    =   1
+request_memory  =   2GB
+request_disk    =   1G
+
 queue
