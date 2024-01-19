@@ -1,9 +1,0 @@
-executable      =   /home/ubuntu/project/um_wqd7008/import_libraries.py
-Output          =   /home/ubuntu/project/um_wqd7008/import_libraries_output.txt
-Error           =   /home/ubuntu/project/um_wqd7008/import_libraries_error.txt
-Log             =   /home/ubuntu/project/um_wqd7008/import_libraries_log.txt
-
-should_transfer_files   = Yes
-when_to_transfer_output = ON_EXIT
-
-queue
