@@ -1,4 +1,4 @@
-# file name: python.dag
+# file name: linear.dag
 
 JOB A data_exploration.sub
 JOB B data_preprocessing.sub
