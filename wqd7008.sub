@@ -1,7 +1,7 @@
-executable      =   /home/ubuntu/project/um_wqd7008/model_training.py
-Output          =   /home/ubuntu/project/um_wqd7008/model_training_output.txt
-Error           =   /home/ubuntu/project/um_wqd7008/model_training_error.txt
-Log             =   /home/ubuntu/project/um_wqd7008/model_training_log.txt
+executable      =   /home/ubuntu/project/um_wqd7008/wqd7008.py
+Output          =   /home/ubuntu/project/um_wqd7008/wqd7008_output.txt
+Error           =   /home/ubuntu/project/um_wqd7008/wqd7008_error.txt
+Log             =   /home/ubuntu/project/um_wqd7008/wqd7008_log.txt
 
 should_transfer_files   = Yes
 when_to_transfer_output = ON_EXIT
