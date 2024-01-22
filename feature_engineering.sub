@@ -1,3 +1,6 @@
+#!/bin/bash
+# file name : feature_engineering.sub
+
 executable      =   /home/ubuntu/project/um_wqd7008/feature_engineering.py
 Output          =   /home/ubuntu/project/um_wqd7008/feature_engineerin_output.txt
 Error           =   /home/ubuntu/project/um_wqd7008/feature_engineerin_error.txt
