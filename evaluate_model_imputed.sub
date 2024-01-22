@@ -1,3 +1,6 @@
+#!/bin/bash
+# file name : evaluate_model_imputed.sub
+
 executable      =   /home/ubuntu/project/um_wqd7008/evaluate_model_imputed.py
 Output          =   /home/ubuntu/project/um_wqd7008/evaluate_model_imputed_output.txt
 Error           =   /home/ubuntu/project/um_wqd7008/evaluate_model_imputed_error.txt
