@@ -1,3 +1,6 @@
+#!/bin/bash
+# file name : model_training.sub
+
 executable      =   /home/ubuntu/project/um_wqd7008/model_training.py
 Output          =   /home/ubuntu/project/um_wqd7008/model_training_output.txt
 Error           =   /home/ubuntu/project/um_wqd7008/model_training_error.txt
