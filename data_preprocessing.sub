@@ -1,6 +1,17 @@
 #!/bin/bash
 # file name : data_preprocessing.sub
 
+# check python version
+echo "$(python3 --version)"
+
+# activate python env
+source venv/bin/activate
+echo "Python env activated"
+
+# change to directory
+cd /home/ubuntu/project/um_wqd7008
+echo "Directory changed"
+
 executable      =   /home/ubuntu/project/um_wqd7008/data_preprocessing.py
 Output          =   /home/ubuntu/project/um_wqd7008/data_preprocessing_output.txt
 Error           =   /home/ubuntu/project/um_wqd7008/data_preprocessing_error.txt
