@@ -1,4 +1,4 @@
-# Step 3: Data Splitting
+# Step 4: Data Splitting
 def data_splitting(df):
     print("\nStep 4: Data Splitting")
     # Import necessary libraries for data splitting
