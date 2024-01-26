@@ -1,3 +1,5 @@
+# Step 1: Data Preprocessing
+
 def data_preprocessing(df):
     print("\nStep 2: Data Preprocessing")
     
